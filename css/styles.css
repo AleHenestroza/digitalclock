@@ -72,3 +72,21 @@ main {
 	font-weight: 700;
 	max-width: 90px;
 }
+.colorpicker {
+	width: 100%;
+	max-width: 500px;
+	margin: 5rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.colorpicker__label {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #1f1f1f;
+}
+.colorpicker__input {
+	width: 10%;
+	max-width: 500px;
+	margin: 5px auto;
+}
