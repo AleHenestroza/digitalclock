@@ -1,15 +1,15 @@
 const clock = document.getElementById('clock');
 const date = document.getElementById('date');
-const btn24hr = document.getElementById('24hr');
-const btn12hr = document.getElementById('12hr');
+// const btn24hr = document.getElementById('24hr');
+// const btn12hr = document.getElementById('12hr');
 const colorpicker = document.getElementById('colorpicker');
 
-btn12hr.addEventListener('click', () => {
-	// TODO: Implement 12hr mode
-});
-btn24hr.addEventListener('click', () => {
-	// TODO: Implement 24hr mode
-});
+// btn12hr.addEventListener('click', () => {
+// 	// TODO: Implement 12hr mode
+// });
+// btn24hr.addEventListener('click', () => {
+// 	// TODO: Implement 24hr mode
+// });
 colorpicker.addEventListener('change', e => {
 	const color = e.target.value;
 	document.body.style.backgroundColor = color;
