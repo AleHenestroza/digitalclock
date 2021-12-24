@@ -1,0 +1,74 @@
+/* 0 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Globals */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	background-color: #1f1f1f;
+}
+/* Styles */
+main {
+	background-color: #fafafa;
+	border-radius: 15px;
+	width: 100%;
+	max-width: 1000px;
+	margin: 8rem auto;
+	padding: 15px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.clock {
+	width: 100%;
+	max-width: 500px;
+	margin: 5rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.clock p {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #1f1f1f;
+}
+.clock__time {
+	display: flex;
+	align-items: center;
+	margin: 2rem;
+	font-size: 4rem;
+	font-weight: 700;
+}
+.clock__time-digit {
+	background-color: #3b3b3b;
+	color: #fafafa;
+	padding: 2px 5px;
+	margin: 1px;
+	border-radius: 5px;
+}
+.clock__date {
+	margin-bottom: 3rem;
+	font-size: 3rem;
+}
+.clock__buttons {
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	margin: 2rem;
+}
+.clock__buttons-btn {
+	background-color: #3b3b3b;
+	color: #fafafa;
+	padding: 4px 5px;
+	margin: 1px;
+	border-radius: 5px;
+	font-weight: 700;
+	max-width: 90px;
+}
